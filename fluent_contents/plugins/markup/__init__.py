@@ -9,7 +9,9 @@ dependencies = {
     'textile': 'textile',
     'creole': '',
 }
-
+dependency_links = [
+        'http://sourceforge.net/p/docutils/code/7646/tarball',
+    ]
 
 # Do some version checking
 for language in appsettings.FLUENT_MARKUP_LANGUAGES:
